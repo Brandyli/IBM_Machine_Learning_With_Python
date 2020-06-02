@@ -1,4 +1,6 @@
-#### Simple & Multiple & Polynomial Linear Regressions
-#### Deicision Tree
+#### Simple & Multiple & Polynomial Regression on Fuel Consumption
+#### Decision Trees on Patients'Drug Classification
+#### K-Nearest Neighbors on Telecommunications Customer Classification
 #### Logistic Regression on Customer Churn
+
 
