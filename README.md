@@ -14,7 +14,7 @@ measure the accuracy by jaccard and log loss
 
 ## Healthcare Industry Machine Learning Projects
 
-#### Decision Trees on Patients'Drug Classification
+#### Decision Trees on Patients' Drug Classification
 build a decision tree model from historical data of patients; 
 use the trained model to predict the class of a unknown patient, or to find a proper drug for a new patients
 
