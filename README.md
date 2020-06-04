@@ -31,3 +31,7 @@ classify cells to whether the samples are benign or malignant; use metrics like 
 
 #### K-Means Clustering on Customer Segementation
 classify customers to three segementations using K-Means to understand and customize strategies for retaining those customers
+
+#### Hierarchical Clustering on Car Model
+use Agglomerative hierarchical clustering methods, to find the most distinctive clusters of vehicles;
+summarize the existing vehicles and help manufacturers to make decision about the supply of new models
