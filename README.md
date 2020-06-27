@@ -5,6 +5,50 @@
 Implement simple, multiple, and polynomial linear regressions to fuel consumption and Carbon dioxide emission of cars;
 split fuel consumption data into training and test sets, create models using training set;
 evaluate the models using test set by metrics including Mean absolute error (MAE), Residual sum of squares (MSE) and R2-score; and finally to predict unknown value
+```
+viz = df[['ENGINESIZE','CYLINDERS','FUELCONSUMPTION_COMB','CO2EMISSIONS']]
+viz.head(10)
+```
+```
+plt.scatter(viz.ENGINESIZE,viz.CO2EMISSIONS, color = 'skyblue')
+plt.xlabel("ENGINESIZE")
+plt.ylabel("EMISSIONS")
+plt.show()
+```
+##### Creating train and test dataset
+```
+mask = np.random.rand(len(df)) < 0.8
+train = viz[mask]
+test = viz[~mask]
+```
+```
+'skyblue')
+plt.xlabel("ENGINESIZE")
+plt.ylabel("EMISSIONS")
+plt.show()
+```
+#### Modeling
+```
+
+from sklearn import linear_model
+regr = linear_model.LinearRegression()
+train_x = np.asanyarray(train[['ENGINESIZE']])
+train_y = np.asanyarray(train[['CO2EMISSIONS']])
+
+regr.fit(train_x,train_y )
+
+# The coefficients
+print("Coefficients: ", regr.coef_)
+print("Intercept: ", regr.intercept_)
+```
+#### Plot outputs
+```
+plt.scatter(train.ENGINESIZE, train.CO2EMISSIONS, color = 'skyblue')
+plt.plot(train_x, regr.coef_[0][0]*train_x+ regr.intercept_[0], '-b')
+plt.xlabel("ENGINESIZE")
+plt.ylabel("EMISSIONS")
+plt.show()
+```
 
 # Classification
 
