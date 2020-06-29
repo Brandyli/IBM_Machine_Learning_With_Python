@@ -1,5 +1,5 @@
 
-# I Regression
+## I Regression
 
 #### Simple & Multiple & Polynomial Regressions on Fuel Consumption
 Implement simple, multiple, and polynomial linear regressions to fuel consumption and Carbon dioxide emission of cars;
@@ -27,7 +27,7 @@ plt.xlabel("ENGINESIZE")
 plt.ylabel("EMISSIONS")
 plt.show()
 ```
-#### II Modeling
+## II Modeling
 ```
 
 from sklearn import linear_model
@@ -50,9 +50,9 @@ plt.ylabel("EMISSIONS")
 plt.show()
 ```
 
-# III Classification
+## III Classification
 
-## Consumption Industry
+### Consumption Industry
 
 #### KNN on Telecommunications Customer Classification
 Create a KNN model for a telecommunication company,to predict group membership using demographic data, predict, for the company can customize offers for individual prospective customers
@@ -61,7 +61,7 @@ Create a KNN model for a telecommunication company,to predict group membership u
 Create a LR model for a telecommunication company, to predict when its customers will leave for a competitor;
 measure the accuracy by jaccard and log loss
 
-## Healthcare Industry 
+### Healthcare Industry 
 
 #### Decision Trees on Patients' Drug Classification
 build a decision tree model from historical data of patients; 
@@ -71,7 +71,7 @@ use the trained model to predict the class of a unknown patient, or to find a pr
 Use SVM (Support Vector Machines) to build and train a model using human cell records;
 classify cells to whether the samples are benign or malignant; use metrics like f1 score and jaccard 
 
-# IV Clustering
+## IV Clustering
 
 #### K-Means Clustering on Customer Segementation
 classify customers to three segementations using K-Means to understand and customize strategies for retaining those customers
