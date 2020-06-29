@@ -1,5 +1,5 @@
 
-# Regression
+# I Regression
 
 #### Simple & Multiple & Polynomial Regressions on Fuel Consumption
 Implement simple, multiple, and polynomial linear regressions to fuel consumption and Carbon dioxide emission of cars;
@@ -27,7 +27,7 @@ plt.xlabel("ENGINESIZE")
 plt.ylabel("EMISSIONS")
 plt.show()
 ```
-#### Modeling
+#### II Modeling
 ```
 
 from sklearn import linear_model
@@ -50,7 +50,7 @@ plt.ylabel("EMISSIONS")
 plt.show()
 ```
 
-# Classification
+# III Classification
 
 ## Consumption Industry
 
@@ -71,7 +71,7 @@ use the trained model to predict the class of a unknown patient, or to find a pr
 Use SVM (Support Vector Machines) to build and train a model using human cell records;
 classify cells to whether the samples are benign or malignant; use metrics like f1 score and jaccard 
 
-# Clustering
+# IV Clustering
 
 #### K-Means Clustering on Customer Segementation
 classify customers to three segementations using K-Means to understand and customize strategies for retaining those customers
